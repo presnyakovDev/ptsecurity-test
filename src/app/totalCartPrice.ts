@@ -1,4 +1,4 @@
-export class totalCartPrice {
+export class TotalCartPrice {
   constructor(price, rates){
     this.rubles = price * rates.RUB;
     this.euros = price * rates.EUR;
